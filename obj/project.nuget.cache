@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wdGlrYeq+GywpX/eA2Cv0wdejlfM6DelVywQo7QPLs/VyC/SiTEJG8sqonf2KbyJemIX3p26hphp+Di6FbbaJA==",
+  "success": true,
+  "projectFilePath": "/home/sebas/Repositorios/Portafolio/Portafolio.csproj",
+  "expectedPackageFiles": [
+    "/home/sebas/.nuget/packages/microsoft.netcore.app.ref/6.0.0-rc.1.21451.13/microsoft.netcore.app.ref.6.0.0-rc.1.21451.13.nupkg.sha512",
+    "/home/sebas/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.0-rc.1.21451.13/microsoft.netcore.app.host.linux-x64.6.0.0-rc.1.21451.13.nupkg.sha512",
+    "/home/sebas/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0-rc.1.21452.15/microsoft.aspnetcore.app.ref.6.0.0-rc.1.21452.15.nupkg.sha512"
+  ],
+  "logs": []
+}
