@@ -7,7 +7,6 @@
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/Portafolio.dll
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/ref/Portafolio.dll
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/Portafolio.pdb
-/home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.GlobalUsings.g.cs
 /home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.csproj.AssemblyReference.cache
 /home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.GeneratedMSBuildEditorConfig.editorconfig
 /home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.AssemblyInfoInputs.cache
