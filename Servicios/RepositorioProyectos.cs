@@ -3,7 +3,7 @@ using Portafolio.Models;
 namespace Portafolio.Servicios
 {
 
-    class RepositorioProyectos
+    public class RepositorioProyectos
     {
         public List<Proyecto> ObtenerProyectos()
 
