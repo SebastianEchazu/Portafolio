@@ -1,13 +1,11 @@
-﻿@model Persona
+﻿@model HomeIndexViewModel
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Pagina Principal";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Soy @Model.Nombre (@Model.Edad) </h1>
-    <h2>soy un desarrollador full stack especializado en tecnologias .net y javascript</h2>
-    <img 
-    id="foto"
-    src="~/img/img1.jpg" alt="foto de seba">
-</div>
+<partial name ="_Presentacion" />
+
+<partial name ="_Habilidades" />
+
+<partial name ="_Proyectos" model= "Model.Proyectos"/>

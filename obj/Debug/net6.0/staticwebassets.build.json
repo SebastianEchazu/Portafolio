@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "waJvw8I3tjino2l5lV0GHS8aFkAX4+qjFbBTtXMUARk=",
+  "Hash": "uYKT92KEBtjwGL76hF0tMfx9hC9xrfjqGpqqtg4IG9I=",
   "Source": "Portafolio",
   "BasePath": "_content/Portafolio",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/sebas/Repositorios/Portafolio/wwwroot/img/dotnet-imagen-2.png",
+      "SourceId": "Portafolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/sebas/Repositorios/Portafolio/wwwroot/",
+      "BasePath": "_content/Portafolio",
+      "RelativePath": "img/dotnet-imagen-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/dotnet-imagen-2.png"
     },
     {
       "Identity": "/home/sebas/Repositorios/Portafolio/wwwroot/img/img1.jpg",

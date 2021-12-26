@@ -16298,8 +16298,23 @@
   "RootNamespace": "Portafolio",
   "Documents": [
     {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_Presentacion.cshtml",
+      "TargetPath": "Views\\Home\\_Presentacion.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_Habilidades.cshtml",
+      "TargetPath": "Views\\Home\\_Habilidades.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_Proyectos.cshtml",
+      "TargetPath": "Views\\Home\\_Proyectos.cshtml",
       "FileKind": "mvc"
     },
     {
