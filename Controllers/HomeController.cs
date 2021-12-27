@@ -9,37 +9,19 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly IRepositorioProyectos _repositorioProyectos;
-    private readonly ServicioUnico _servicioUnico;
-    private readonly ServicioDelimitado _servicioDelimitado;
-    private readonly ServicioTransitorio _servicioTransitorio;
 
-    public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos,
-     ServicioUnico servicioUnico,
-     ServicioDelimitado servicioDelimitado,
-     ServicioTransitorio servicioTransitorio)
+    public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos)
     {
         _logger = logger;
         _repositorioProyectos = repositorioProyectos;
-        _servicioUnico = servicioUnico;
-        _servicioDelimitado = servicioDelimitado;
-        _servicioTransitorio = servicioTransitorio;
-
+      
     }
-
-
     public IActionResult Index()
     {
-
-        var guidNewModel = new EjemploGuidViewModel
-        {
-            transitorio = _servicioTransitorio.ObtenerGuid,
-            Delimitado = _servicioDelimitado.ObtenerGuid,
-            Unico = _servicioUnico.ObtenerGuid
-        };
-
+    
         var proyectos = _repositorioProyectos.ObtenerProyectos().Take(3).ToList();
 
-        var modelo = new HomeIndexViewModel() { Proyectos = proyectos, EjemploGuid_1 = guidNewModel };
+        var modelo = new HomeIndexViewModel() { Proyectos = proyectos};
 
         return View(modelo);
     }
