@@ -27,10 +27,30 @@ public class HomeController : Controller
     }
 
 
-    public IActionResult Privacy()
+    public IActionResult Proyectos()
+    {
+        var proyectos = _repositorioProyectos.ObtenerProyectos();
+
+        return View(proyectos);
+    }
+
+    [HttpGet]
+    public IActionResult Contacto()
     {
         return View();
     }
+
+    [HttpPost]
+    public IActionResult Contacto(ContactoViewModel modelo)
+    {
+        if (ModelState.IsValid)
+        {
+            // Enviar correo electrónico aquí.
+            return RedirectToAction("Index");
+        }
+
+        return View(modelo);
+    } 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

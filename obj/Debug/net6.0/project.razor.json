@@ -16298,8 +16298,23 @@
   "RootNamespace": "Portafolio",
   "Documents": [
     {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/Proyectos.cshtml",
+      "TargetPath": "Views\\Home\\Proyectos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_Presentacion.cshtml",
       "TargetPath": "Views\\Home\\_Presentacion.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_ListadoProyectos.cshtml",
+      "TargetPath": "Views\\Home\\_ListadoProyectos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_SeccionProyectos.cshtml",
+      "TargetPath": "Views\\Home\\_SeccionProyectos.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16310,11 +16325,6 @@
     {
       "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_Habilidades.cshtml",
       "TargetPath": "Views\\Home\\_Habilidades.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/_Proyectos.cshtml",
-      "TargetPath": "Views\\Home\\_Proyectos.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16345,6 +16355,11 @@
     {
       "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/Contacto.cshtml",
+      "TargetPath": "Views\\Home\\Contacto.cshtml",
       "FileKind": "mvc"
     }
   ],
