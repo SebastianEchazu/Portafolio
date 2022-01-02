@@ -14,14 +14,14 @@ public class HomeController : Controller
     {
         _logger = logger;
         _repositorioProyectos = repositorioProyectos;
-      
+
     }
     public IActionResult Index()
     {
-    
+
         var proyectos = _repositorioProyectos.ObtenerProyectos().Take(3).ToList();
 
-        var modelo = new HomeIndexViewModel() { Proyectos = proyectos};
+        var modelo = new HomeIndexViewModel() { Proyectos = proyectos };
 
         return View(modelo);
     }
@@ -46,11 +46,18 @@ public class HomeController : Controller
         if (ModelState.IsValid)
         {
             // Enviar correo electrónico aquí.
-            return RedirectToAction("Index");
+            return RedirectToAction("Gracias");
         }
 
         return View(modelo);
-    } 
+    }
+
+    public IActionResult Gracias()
+
+    {
+        return View();
+     }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

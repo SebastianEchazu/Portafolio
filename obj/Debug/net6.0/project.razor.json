@@ -16358,6 +16358,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/Gracias.cshtml",
+      "TargetPath": "Views\\Home\\Gracias.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/sebas/Repositorios/Portafolio/Views/Home/Contacto.cshtml",
       "TargetPath": "Views\\Home\\Contacto.cshtml",
       "FileKind": "mvc"
