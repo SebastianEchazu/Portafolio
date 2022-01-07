@@ -9,13 +9,16 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly IRepositorioProyectos _repositorioProyectos;
+    private readonly IServicioEmail _servicioEmail;
 
-    public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos)
+    public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos,
+     IServicioEmail servicioEmail)
     {
         _logger = logger;
         _repositorioProyectos = repositorioProyectos;
-
+        _servicioEmail = servicioEmail;
     }
+  
     public IActionResult Index()
     {
 
@@ -41,8 +44,9 @@ public class HomeController : Controller
     }
 
     [HttpPost]
-    public IActionResult Contacto(ContactoViewModel modelo)
+    public async Task<IActionResult> Contacto(ContactoViewModel modelo)
     {
+        await _servicioEmail.EnviarEmail(modelo);
         if (ModelState.IsValid)
         {
             // Enviar correo electrónico aquí.
