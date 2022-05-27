@@ -5,7 +5,6 @@
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/Portafolio.deps.json
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/Portafolio.runtimeconfig.json
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/Portafolio.dll
-/home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/ref/Portafolio.dll
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/Portafolio.pdb
 /home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.csproj.AssemblyReference.cache
 /home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.GeneratedMSBuildEditorConfig.editorconfig
@@ -50,3 +49,4 @@ C:/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.genruntimeconfig.cache
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/SendGrid.dll
 /home/sebas/Repositorios/Portafolio/bin/Debug/net6.0/StarkbankEcdsa.dll
 /home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/Portafolio.csproj.CopyComplete
+/home/sebas/Repositorios/Portafolio/obj/Debug/net6.0/refint/Portafolio.dll
