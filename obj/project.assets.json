@@ -2740,24 +2740,31 @@
     ]
   },
   "packageFolders": {
-    "/home/sebas/.nuget/packages/": {}
+    "C:\\Users\\sebas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sebas/Repositorios/Portafolio/Portafolio.csproj",
+      "projectUniqueName": "C:\\repositorios\\portafolio\\Portafolio.csproj",
       "projectName": "Portafolio",
-      "projectPath": "/home/sebas/Repositorios/Portafolio/Portafolio.csproj",
-      "packagesPath": "/home/sebas/.nuget/packages/",
-      "outputPath": "/home/sebas/Repositorios/Portafolio/obj/",
+      "projectPath": "C:\\repositorios\\portafolio\\Portafolio.csproj",
+      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+      "outputPath": "C:\\repositorios\\portafolio\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/sebas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2799,7 +2806,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
