@@ -18,7 +18,6 @@ What you need to install the software and how to install them
 
 ## 🛠️ Build with :
 
-
 * [Visual Studio 2022](https://visualstudio.microsoft.com/es/vs/) 
 * [C#](https://docs.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/) 
 * [ASP.NET](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-5.0&source=docs)
